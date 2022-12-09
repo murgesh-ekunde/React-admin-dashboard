@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import Chartpage from './Pages/Charts/Chartpage'
 import Cardpage from "./Pages/Cards/Cardpage";
 import Buttonpage from "./Pages/Buttons/Buttonpage";
+import Tablepage from "./Pages/Tables/Tablepage";
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <Routes>
             <Route path="/" element={<Dashboard/>} />
             <Route path="/preview/dashboard" element={<Dashboard/>} />
-            {/* <Route path="/table" element={<Table />} /> */}
+            <Route path="/preview/table" element={<Tablepage />} />
             <Route path="/preview/charts" element={<Chartpage/>} />
             <Route path="/preview/cards" element={<Cardpage/>} />
             <Route path="/preview/buttons" element={<Buttonpage/>} />

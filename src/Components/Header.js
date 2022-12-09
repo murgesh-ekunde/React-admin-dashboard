@@ -20,17 +20,11 @@ function Header() {
             <MenuItem> <Link to="/preview/buttons">Buttons </Link> </MenuItem>
             <MenuItem> <Link to="/preview/cards">Cards</Link> </MenuItem>
         </SubMenu>
-        <SubMenu label="Utilities">
-            <MenuItem> Colors </MenuItem>
-            <MenuItem> Borders </MenuItem>
-            <MenuItem> Animations </MenuItem>
-            <MenuItem> Others </MenuItem>
-        </SubMenu>
             <hr></hr>
 
         <p> ADDONS </p>
             <MenuItem> <Link to="/preview/charts">Charts</Link></MenuItem>
-            <MenuItem> <Link to="/preview/tables">Tables</Link></MenuItem>
+            <MenuItem> <Link to="/preview/table">Tables</Link></MenuItem>
             <hr></hr>
 
     </Menu>
