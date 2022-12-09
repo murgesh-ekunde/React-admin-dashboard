@@ -2,7 +2,12 @@ import "./App.css";
 import { useState } from "react";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
-import Dashboard from "./Dashboard/Dashboard";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import { Routes, Route } from 'react-router-dom'
+import Chartpage from './Pages/Charts/Chartpage'
+import Cardpage from "./Pages/Cards/Cardpage";
+import Buttonpage from "./Pages/Buttons/Buttonpage";
+
 
 function App() {
   return (
@@ -10,7 +15,14 @@ function App() {
     <Header />
       <div className="mainContainer">
       <Navbar/>
-      <Dashboard />
+      <Routes>
+            <Route path="/" element={<Dashboard/>} />
+            <Route path="/preview/dashboard" element={<Dashboard/>} />
+            {/* <Route path="/table" element={<Table />} /> */}
+            <Route path="/preview/charts" element={<Chartpage/>} />
+            <Route path="/preview/cards" element={<Cardpage/>} />
+            <Route path="/preview/buttons" element={<Buttonpage/>} />
+        </Routes>
       </div>
   </div>
   )

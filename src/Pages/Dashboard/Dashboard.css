@@ -1,0 +1,118 @@
+.dashboardtitle{
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+/* Progressbar Styling */
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .progress span{
+    font-weight: bold !important;
+    font-size: 20px;
+  }
+  
+  progress{
+    width : 75%;
+  }
+  
+  .name {
+    font-weight: 700 !important;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .CardContent{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .iconWrapper{
+    width : 15% !important;
+    text-align: left;
+    color: #dddfeb 
+  }
+
+  .progressBarBlock .label {
+    display : block;
+    font-weight: bold;
+    font-size: 13px;
+    color : #858796;
+    margin: 0 0 5px 0 !important;
+  }
+  .progressBarBlock .label span{
+    float:right;
+  }
+  
+  .progressBarBlock .progress{
+    margin: 0 0 5px 0 !important;
+    width : 100%;
+    height : 32px;
+    color : red !important;
+    /* background-color: blue !important; */
+  }
+  
+  .progressBarBlock{
+    padding : 20px;
+  }
+  
+  .progressbarHeader {
+    background-color: #f8f9fc;
+    height : 40px;
+    color : #4E73DF;
+    padding : 8px 16px;
+    font-weight: 600;
+    display : flex;
+    align-items: center;
+    border-bottom: 1px solid #e3e6f0;
+  }
+  
+  .progressbarWrapper {
+    margin-top: 20px;
+    background-color: white;
+    border-radius : 5px;
+    border : 1px solid #e3e6f0;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15) !important;
+  }
+
+  /* Illustrative Card Styling  */
+   .card{
+    margin-top: 15px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15) !important;
+  }
+
+  #illustration-datacards .card-header{
+    background-color: #f8f9fc ;
+    height : 40px;
+    color : #4E73DF;
+    padding : 8px 16px;
+    font-weight: 600;
+    display : flex;
+    align-items: center;
+    border-bottom: 1px solid #e3e6f0;
+  }
+
+  #illustration-datacards .card-body{
+    padding: 1.25rem !important;
+  }
+
+  .illustration-image{
+    text-align: center;
+  }
+
+  .illustration-image img{
+    width:25rem;
+    margin:20px;
+  }
+  
+ .illustration-info p{
+  color: #858796;
+  font-size: 1rem;
+  font-weight: 400;
+}
+  .illustrative-link a{
+    color: #4e73df;
+  }
